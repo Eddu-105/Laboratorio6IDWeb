@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro</title>
+</head>
+<body>
+  <header>
+    <h1>Registro de Usuario</h1>
+    <nav>
+      <a href="index.html">Inicio</a> |
+      <a href="lenguajes.html">Lenguajes</a> |
+      <a href="registro.html">Registro</a>
+    </nav>
+  </header>
+
+  <main>
+    <form>
+      <label for="correo">Correo electrónico:</label><br>
+      <input type="email" id="correo" name="correo" required placeholder="ejemplo@correo.com"><br><br>
+
+      <label for="contrasena">Contraseña:</label><br>
+      <input type="password" id="contrasena" name="contrasena"
+             required placeholder="6 a 12 caracteres"
+             pattern=".{6,12}"><br><br>
+
+      <label for="confirmar">Confirmar contraseña:</label><br>
+      <input type="password" id="confirmar" name="confirmar"
+             required placeholder="Repite tu contraseña"><br><br>
+
+      <button type="submit">Registrar</button>
+    </form>
+  </main>
+</body>
+</html>
